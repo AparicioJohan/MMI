@@ -8,6 +8,7 @@
   <link href="inst/assets/vendor/nucleo/css/nucleo.css" rel="stylesheet"/>
   <link href="inst/assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
   <link type="text/css" href="inst/assets/css/argon.min.css" rel="stylesheet"/>
+  <link type="text/css" href="inst/assets/css/devices.min.css" rel="stylesheet" media="all"/>
   <body>
     <header class="header-global">
       <nav class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--not-bottom headroom--pinned headroom--top" id="navbar-main">
@@ -48,16 +49,16 @@
                       </div>
                       <div class="media-body ml-3">
                         <h6 class="heading text- mb-md-1">Getting Started</h6>
-                        <p class="description d-none d-md-inline-block mb-0">How can I...</p>
+                        <p class="description d-none d-md-inline-block mb-0"></p>
                       </div>
                     </a>
-                    <a class="media d-flex align-items-center" href="">
+                    <a class="media d-flex align-items-center" href="#live">
                       <div class="icon icon-shape rounded-circle">
                         <i class="ni text-warning ni-settings"></i>
                       </div>
                       <div class="media-body ml-3">
-                        <h6 class="heading text- mb-md-1">Manual</h6>
-                        <p class="description d-none d-md-inline-block mb-0">Info...</p>
+                        <h6 class="heading text- mb-md-1">Live</h6>
+                        <p class="description d-none d-md-inline-block mb-0"></p>
                       </div>
                     </a>
                   </div>
@@ -136,20 +137,21 @@
             </div>
       </section>
       <section class="section section-lg mt-0 pt-0">
-        <div class="container">
+        <div class="container" id="live">
           <div class="row">
-            <h1 class="display-3 pt-5">Elements</h1>
+            <h1 class="display-3 pt-5">Live</h1>
             <br/>
           </div>
-          <small class="text-muted">
-            <p class="lead">Progress</p>
-          </small>
-          <small class="text-muted">
-            <p class="lead">Tabs</p>
-          </small>
-          <div class="row">
-            <br/>
-          </div>
+          <div class="container">
+          <div class="marvel-device macbook">
+            <div class="top-bar"></div>
+            <div class="camera"></div>
+            <div class="screen">
+                     <iframe width="100%" src="https://beanteam.shinyapps.io/" allowfullscreen=""  scrolling="yes"  height="100%"></iframe>
+            </div>
+            <div class="bottom-bar"></div>
+         </div>
+         </div>
         </div>
       </section>
     </main>
